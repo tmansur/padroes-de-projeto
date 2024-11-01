@@ -48,11 +48,28 @@ Aplicando o padrão utilizando uma factory por tipo de banco de dados:
 
 ### Abstract Factory
 
-Problemas:
-- como escrever código onde as classes instanciadas possam variar dentro de uma mesma interface?
-- como garantir que um conjunto de objetos relacionados possam ser criados mantendo o contexto único?
+Fornece uma interface para criação de **famílias de objetos** relacionados ou dependentes sem especificar suas classes concretas.
 
-O Abstract Factory é um padrão de projeto criacional que permite que você produza famílias de objetos relacionados sem ter que especificar suas classes concretas.
+Diferentemente do Factory Method que trabalha com a factory baseada em uma interface/classe abstrata, por exemplo IPhone, o Abstract Factory trabalha com factory baseada em uma família de interfaces/classes abstratas relacionados ou dependentes.
+
+#### Factory Method x Abstract Factory
+
+![image](https://github.com/user-attachments/assets/c1c2ad70-22b6-4de8-afe5-5abcac81c1d9)
+
+#### Diferentes maneiras de estruturar o Abstract Factory
+
+Retornando serviços de usuários e carros para serem consumidos de uma maneira específica (REST ou EJB)
+
+![image](https://github.com/user-attachments/assets/8e5403b0-de9e-4982-a3cb-921f6e2ec97f)
+
+Retornando um serviço específico (usuário ou carro) e duas maneiras diferentes de ser usado (REST e EJB)
+
+![image](https://github.com/user-attachments/assets/a21848e5-e98d-490b-8b52-2873e311e188)
+
+
+### Singleton
+
+Garantir que uma classe tenha somente uma instância e fornecer ponto global de acesso para a mesma.
 
 
 
