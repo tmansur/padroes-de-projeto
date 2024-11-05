@@ -71,6 +71,22 @@ Retornando um serviço específico (usuário ou carro) e duas maneiras diferente
 
 Garantir que uma classe tenha somente uma instância e fornecer ponto global de acesso para a mesma.
 
+Passos:
+- Tornar o construtor private.
+- Definir um ponto de criação estático para retornar a instância única.
+
+### Builder
+
+Separar a construção de um objeto complexo da sua representação de modo que o mesmo processo de construção possa criar diferentes representações.
+
+Permite construir objetos complexos por etapas. Para isso deve-se constuir uma classe auxiliar, chamada de builder, que será responsável por construir o objeto desejado. Cada método da classe builder configura uma parte específica do objeto. 
+
+É comum utilizar uma biblioteca chamada Fluent Interface para implementação da classe builder pois essa biblioteca permite encadear chamadas de métodos de forma fácil.
+
+#### Criação de objeto "Refeição de Fast Food"
+
+![image](https://github.com/user-attachments/assets/537f6ce6-1019-48fa-b801-210c0bcd43f6)
+
 
 
 ---------------------------------------------------------------------------------------------------------------
