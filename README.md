@@ -97,6 +97,12 @@ Especificar os tipos de objetos a serem criados usando uma instância como prot�
 
 ## Padrões Estruturais
 
+Padrões que se preocupam com a forma como classes e objetos podem ser compostos para formar estruturas maiores. Eles utilizam a herança para compor interfaces ou implementações.
+
+
+### Adapter
+
+
 ---------------------------------------------------------------------------------------------------------------
 
 ## Padrões Comportamentais
