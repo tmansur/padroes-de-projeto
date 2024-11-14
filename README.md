@@ -113,6 +113,11 @@ Permite que classes com interfaces incompatíveis trabalhem em conjunto.
 
 ### Bridge
 
+Desacoplar uma abstração da sua implementação, de modo que as duas possam variar independentemente.
+
+![design-patterns-bridge](https://github.com/user-attachments/assets/d5dc94ff-0bc7-4895-8c70-f28640207899)
+
+
 ---------------------------------------------------------------------------------------------------------------
 
 ## Padrões Comportamentais
