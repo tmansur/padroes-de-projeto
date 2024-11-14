@@ -99,9 +99,19 @@ Especificar os tipos de objetos a serem criados usando uma instância como prot�
 
 Padrões que se preocupam com a forma como classes e objetos podem ser compostos para formar estruturas maiores. Eles utilizam a herança para compor interfaces ou implementações.
 
-
 ### Adapter
 
+Permite que classes com interfaces incompatíveis trabalhem em conjunto.
+
+#### Adapter de Objeto
+
+![adapter-objeto](https://github.com/user-attachments/assets/0a985fdd-8333-4241-b4f0-a403d1f7d915)
+
+#### Adapter de Classe
+
+![adapter-classe](https://github.com/user-attachments/assets/8e1cf004-25e4-4a90-ac62-97079d426167)
+
+### Bridge
 
 ---------------------------------------------------------------------------------------------------------------
 
