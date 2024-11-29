@@ -117,6 +117,25 @@ Desacoplar uma abstração da sua implementação, de modo que as duas possam va
 
 ![design-patterns-bridge](https://github.com/user-attachments/assets/d5dc94ff-0bc7-4895-8c70-f28640207899)
 
+### Composite
+
+Trata parte e todo a partir de uma mesma interface, permitindo assim a criação de estruturas recursivas.
+
+Estrutura de árvore é um bom exemplo de representação do padrão.
+
+Exemplo de aplicação: sistema de arquivos onde a pasta e os arquivos possuem a mesma interface.
+
+*Problema:*
+- Como seria possível criar uma estrutura onde uma unidade e um conjunto delas possam ser tratadas de forma transparente e sem diferenças?
+
+*Solução:*
+- Definir uma composição que possa se comportar tanto como um elemento apenas ou como um conjunto desse elemento. 
+
+> Compor objetos em estruturas de árvore para representar hierarquias todo-parte. Composite permite que clientes tratem objetos individuais e composições de objetos de maneira uniforme. 
+
+#### FileSystem
+
+![alt text](design-patterns-composite.jpg)
 
 ---------------------------------------------------------------------------------------------------------------
 
