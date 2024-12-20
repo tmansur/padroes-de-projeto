@@ -131,11 +131,29 @@ Exemplo de aplicação: sistema de arquivos onde a pasta e os arquivos possuem a
 *Solução:*
 - Definir uma composição que possa se comportar tanto como um elemento apenas ou como um conjunto desse elemento. 
 
-> Compor objetos em estruturas de árvore para representar hierarquias todo-parte. Composite permite que clientes tratem objetos individuais e composições de objetos de maneira uniforme. 
+> GOF: Compor objetos em estruturas de árvore para representar hierarquias todo-parte. Composite permite que clientes tratem objetos individuais e composições de objetos de maneira uniforme.
 
 #### FileSystem
 
 ![alt text](design-patterns-composite.jpg)
+
+### Decorator
+
+Permite extender a funcionalidade de uma classe a partir de composição.
+
+*Problema:*
+Como adicionar funcionalidades dinamicamente em um objeto?
+
+*Solução:*
+Com objetos decorators é possível adicionar novas responsabilidades para um objeto.
+
+> GOF: Anexar responsabilidades adicionais a um objeto dinamicamente. Decorators oferecem uma alternativa flexível ao usuo de herança para estender uma funcionalidade.
+
+#### Coffe Shop
+
+Incrementando bebidas existentes utilizando o padrão decorator:
+
+![alt text](design-patterns-decorator.jpg)
 
 ---------------------------------------------------------------------------------------------------------------
 
